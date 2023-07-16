@@ -1,0 +1,21 @@
+{
+  "name": "stockfish-ts",
+  "version": "1.0.0",
+  "description": "Stockfish CLI wrapper",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup build src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "Memo12334",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
