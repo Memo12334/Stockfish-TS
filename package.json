@@ -1,6 +1,6 @@
 {
   "name": "stockfish-ts",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Stockfish CLI wrapper",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -17,5 +17,8 @@
     "tsup": "^7.1.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
-  }
+  },
+  "files": [
+    "dist/*"
+  ]
 }
