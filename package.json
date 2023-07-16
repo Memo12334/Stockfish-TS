@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "tsup build src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
@@ -17,8 +20,5 @@
     "tsup": "^7.1.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
-  },
-  "files": [
-    "dist/*"
-  ]
+  }
 }
